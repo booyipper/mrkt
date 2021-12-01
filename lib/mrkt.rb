@@ -15,6 +15,7 @@ require 'mrkt/concerns/crud_custom_activities'
 require 'mrkt/concerns/crud_programs'
 require 'mrkt/concerns/crud_asset_static_lists'
 require 'mrkt/concerns/crud_asset_folders'
+require 'mrkt/concerns/crud_asset_emails'
 
 module Mrkt
   class Client
@@ -32,6 +33,7 @@ module Mrkt
     include CrudPrograms
     include CrudAssetStaticLists
     include CrudAssetFolders
+    include CrudAssetEmails
 
     attr_accessor :debug
 
