@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.5'
 
-  spec.add_dependency 'faraday', '~> 1.0'
+  spec.add_dependency 'faraday', '>= 1', '< 3'
   spec.add_dependency 'faraday_middleware', '~> 1.0'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry-byebug', '~> 3.7'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.2'
-  spec.add_development_dependency 'rubocop', '~> 1.26.0'
+  spec.add_development_dependency 'rubocop', '~> 1.28.2'
   spec.add_development_dependency 'rubocop-rake', '~> 0.6.0'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.6'
   spec.add_development_dependency 'simplecov', '~> 0.21.2'
