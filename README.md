@@ -1,12 +1,12 @@
 # Mrkt
 
-[![Build Status](https://travis-ci.org/raszi/mrkt.svg?branch=master)](https://travis-ci.org/raszi/mrkt)
+[![Build Status](https://github.com/raszi/mrkt/actions/workflows/ruby.yml/badge.svg)](https://github.com/raszi/mrkt/actions/workflows/ruby.yml?query=branch%3Amaster)
 [![Code Climate](https://codeclimate.com/github/raszi/mrkt/badges/gpa.svg)](https://codeclimate.com/github/raszi/mrkt)
 [![Test Coverage](https://codeclimate.com/github/raszi/mrkt/badges/coverage.svg)](https://codeclimate.com/github/raszi/mrkt)
 [![Gem Version](https://badge.fury.io/rb/mrkt.svg)](https://badge.fury.io/rb/mrkt)
 [![Total Downloads](https://badgen.net/rubygems/dt/mrkt)](https://rubygems.org/gems/mrkt)
 
-This gem provides some level of abstraction to Marketo REST APIs. Please note that this gem is alpha quality.
+This gem provides some level of abstraction to Marketo REST APIs.
 
 
 ## Installation
